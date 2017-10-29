@@ -12,7 +12,7 @@ It implements Current(2017-10-29), 1.6,
 1.4 to 1.5 in the SLP documentation of [wiki.vg](http://wiki.vg/Server_List_Ping)
 
 ### Download
-Latest version: [![release](https://img.shields.io/github/release/RanolP/CorrectServer.svg)](https://github.com/RanolP/CorrectServer/releases/latest)
+Latest version: [![release](https://img.shields.io/jitpack/v/RanolP/CorrectServer.svg)](https://github.com/RanolP/CorrectServer/releases/latest)
 #### Gradle
 ```gradle
 repositories {
@@ -31,7 +31,7 @@ dependencies {
 1.6, 1.4 to 1.5를 구현한 구현체입니다.
 
 ### 설치
-최신 버전: [![release](http://github-release-version.herokuapp.com/github/RanolP/CorrectServer/release.svg?style=flat)](https://github.com/RanolP/CorrectServer/releases/latest)
+Latest version: [![release](https://img.shields.io/jitpack/v/RanolP/CorrectServer.svg)](https://github.com/RanolP/CorrectServer/releases/latest)
 #### Gradle
 ```gradle
 repositories {
