@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/RanolP/CorrectServer.svg?branch=master)](https://travis-ci.org/RanolP/CorrectServer)
+[![Build Status](https://img.shields.io/travis/RanolP/CorrectServer/master.svg)](https://travis-ci.org/RanolP/CorrectServer)
+[![Downloads](https://img.shields.io/github/downloads/RanolP/CorrectServer/total.svg)](https://github.com/RanolP/CorrectServer/)
+
 # CorrectServer
 Minecraft server pinger library
 ## Documentation
@@ -10,7 +12,7 @@ It implements Current(2017-10-29), 1.6,
 1.4 to 1.5 in the SLP documentation of [wiki.vg](http://wiki.vg/Server_List_Ping)
 
 ### Download
-Latest version: [![release](http://github-release-version.herokuapp.com/github/RanolP/CorrectServer/release.svg?style=flat)](https://github.com/RanolP/CorrectServer/releases/latest)
+Latest version: [![release](https://img.shields.io/github/release/RanolP/CorrectServer.svg)](https://github.com/RanolP/CorrectServer/releases/latest)
 #### Gradle
 ```gradle
 repositories {
