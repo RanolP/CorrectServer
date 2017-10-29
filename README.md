@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/RanolP/CorrectServer.svg?branch=master)](https://travis-ci.org/RanolP/CorrectServer)
 # CorrectServer
 Minecraft server pinger library
 ## Documentation
