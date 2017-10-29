@@ -1,3 +1,11 @@
 language: java
 before_install:
-  - chmod +x gradlew
+- chmod +x gradlew
+deploy:
+  provider: releases
+  api_key:
+    secure: eeVYQBSxOMjqcNwayIOCnuUtke2YlWJvUB4x+WmfP7Gk/Y2L85WwEtVEzaUzQ8D75aQAG15RLrf2FUhtpg3VBvIeWAcme+/5eDcHI66ZsUtRmt6weerppmHzN7Yyhanjb9NIvdqXB2ceFJnSgcOKiqshUHfrA6+fTu5vSjSmXYaTeZnNvqeTf0tYhmXFTrB7fui1HYCTAxJH3rATGN+d+m3Mbsk/ISWV3KJTSKX35PWKP+Kku5C3m239kvc154LGEZzANzZ/u3yAD6rK31DtrUI9LT2sENi6VrNLeILi/iooQX3MabtnbYFi7ytu8yfHte6rlzRIts+pNn0OcYrO1G2HwUiYVdtI7NeVRbqR3s02wByhbeLM/fd6ljXWY5NSsZxaemPv1dniuGc26rxhkjp74DA7VS8hCTzJl2UZOJxVotr2EUypTt5xrO9cDWoailL116doiMLgh9/8QvgOP9NrSMsG3dEYe3pPDNnfs6nGJdgjb10InY5DdiScXu784+hoAvmRuVi8YldZJbci8ZVIZcc3mbBbZ/EcwxdtGkR4HJkJHhKYmpwke4/+qs4yYocu+CLQTL3GEFKXZ5XW5uCLqDL2W6qsyLeAgBTlPXwDgHuJzE8Or8t/w4RSVGut+bqC1saH0xSSXQPn6ATqYiO7opsGkxeCaHuC9YJLkVc=
+  file: "build/libs/CorrectServer.jar"
+  on:
+    repo: RanolP/CorrectServer
+    tags: true
