@@ -5,7 +5,6 @@ Minecraft server pinger library
   * [한국어](#한국어)
 
 ## English
-### Spec
 It implements Current(2017-10-29), 1.6,
 1.4 to 1.5 in the SLP documentation of [wiki.vg](http://wiki.vg/Server_List_Ping)
 
